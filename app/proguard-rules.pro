@@ -1,0 +1,3 @@
+-keep class kotlinx.serialization.** { *; }
+-keep class org.rojman.app.data.model.** { *; }
+-dontwarn kotlinx.serialization.**
